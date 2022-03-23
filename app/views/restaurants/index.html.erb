@@ -1,0 +1,10 @@
+<h1>RESTAURANT LIST</h1>
+<br>
+<ul>
+    <li><% @restaurants.each do |restaurant|%></li>
+    <li><%=restaurant.name %></li>
+    <li><%=restaurant.address %></li>
+    <li><%=restaurant.phone_number %></li>
+    <li><%=restaurant.category %></li>
+    <li><%end %></li>
+</ul>
